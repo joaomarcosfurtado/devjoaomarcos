@@ -8,11 +8,11 @@ export function Header () {
         <h1>Olá 👋, bem vindo ao meu portfólio!</h1>
         <p>
           Meu nome é João Marcos tenho 21 anos, sou desenvolvedor Front-End 
-          atualmente estou focado em ReactJS e seu eccosistema.
+          atualmente estou focado em ReactJS e seu ecossistema.
           Sou desenvolvedor há quase dois anos e tive oportunidade de realizar
-          feitos bem interessantes. que tal saber mais sobre minha trajetória  
+          feitos bem interessantes. Que tal saber mais sobre minha trajetória  
           <strong>  <a href="./resume">Veja meu Resumo.</a> </strong>
-          E adoro trabalhar em projetos a parte para melhoria pessoal e profissional
+          Adoro trabalhar em projetos a parte para melhoria pessoal e profissional
           caso tenha interesse em conversar sobre isso você pode clicar no link
           abaixo e me enviar um e-mail, ou me chamar nas redes sociais.
 
