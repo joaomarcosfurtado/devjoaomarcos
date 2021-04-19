@@ -38,6 +38,9 @@ export const Form = styled.form`
     margin-bottom: 25px;
     padding-bottom: 30px;
     border: 1px solid #E7E7E7;
+
+    align-items: center;
+    font-size: 1.2rem;
   }
 
   input[type=text]:last-child {
