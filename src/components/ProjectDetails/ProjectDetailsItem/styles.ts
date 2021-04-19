@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-width: 330px;
 width: 300px;
 
 img {
@@ -19,12 +18,6 @@ h2 {
 p {
   max-width: 300px;
   margin-bottom: 12px;
-}
-
-a {
-  font-weight: 400;
-  font-size: 1rem;
-  color: #000;
 }
 
 button {

@@ -6,10 +6,10 @@ interface Jobs {
   image: string;
   title: string;
   description: string;
-  link: string;
+  link?: string;
 }
 
-export function JobsDoneList (props) {
+export function ProjectDetailItem (props) {
   return(
     <>
     <Container>
@@ -20,19 +20,7 @@ export function JobsDoneList (props) {
           {props.job.description}
         </p>
       </Description>
-      
-        { props.job.isFinished ? (
-            
-            <a href={props.job.link}>Veja Mais</a> 
-          ) : (
-            <a href="#">
-              <button disabled>
-                Coming Soon
-              </button>
-            </a> 
-          )
-        }
-      
+
     </Container>
    
     </>

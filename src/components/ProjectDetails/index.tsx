@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { JobsDoneList } from "./JobsDoneList";
+import { ProjectDetailItem } from "./ProjectDetailsItem";
 import { Container, Content } from "./styles";
-import JobsItem from '../../../jobsdone.json' 
+import ProjectDetailsProps from '../../../projectDetails.json' 
 
 interface Jobs {
   id: number;
@@ -9,14 +9,14 @@ interface Jobs {
   title: string;
   description: string;
   isFinished?: boolean;
-  link: string; 
+  link?: string; 
 }
 
-export function JobsDone () {
+export function ProjectDetail () {
   
   const [ jobs, setJobs ] = useState<Jobs[]>(() => {
 
-    const storagedJobs = JobsItem;
+    const storagedJobs = ProjectDetailsProps;
 
     if (storagedJobs) {
       return storagedJobs;
@@ -30,7 +30,7 @@ export function JobsDone () {
     <Container>
       <Content>
         {jobs.map(job => (
-          <JobsDoneList key={job.id} job={job}/>
+          <ProjectDetailItem key={job.id} job={job}/>
         ))}
       </Content>  
     </Container>

@@ -1,5 +1,6 @@
 import { ContactMe } from "../components/ContactMe";
 import { HeaderForCase } from "../components/HeaderForCase";
+import { ProjectDetail } from "../components/ProjectDetails";
 import { ProjectRoleList } from "../components/ProjectRole";
 import { Container } from "../styles/pages/pages";
 
@@ -8,7 +9,8 @@ export default function FpControladoria () {
     <Container>
       <HeaderForCase />
       <ProjectRoleList />
-      {/* <ContactMe /> */}
+      <ProjectDetail />
+      <ContactMe />
     </Container>
   );
 }
