@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "company": "Energisa S/A",
+    "role": "Desenvolvedor de Sistemas",
+    "date": "Apr 2021 - Today"
+  },
+  {
+    "id": 2,
+    "company": "Alt-C Developer",
+    "role": "Programador Pleno",
+    "date": "Oct 19 - Mar 21"
+  },
+  {
+    "id": 3,
+    "company": "Alt-C Developer",
+    "role": "Monitor de Sistema e Sup Usuário",
+    "date": "Jun 19 - Sep 19"
+  },
+  {
+    "id": 4,
+    "company": "FP Controladoria",
+    "role": "Auxiliar Contábil",
+    "date": "May 19 - Jun 19"
+  }
+]

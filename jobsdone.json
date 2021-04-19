@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "image": "assets/images/jobsDone/fpcontroladoria.png",
+    "title": "FP Controladoria",
+    "description": "Portfolio feio para uma empresa de gestão de contabilidade onde tiver oportunidade de criar esse site utilizando NextJS. O principal intuito era conseguir unir as informações da empresa, incluir suas novas atualizações e mostrar um pouco como ela atuava em seu ramo. acesse www.fpcontroladoria.com.br para saber mais",
+    "isFinished": true
+  },
+  {
+    "id": 2,
+    "image": "assets/images/jobsDone/taskpad.jpg",
+    "title": "TaskPad",
+    "description": "Esta aplicação foi feita utilizando ReactJS e tem como objetivo permitir pessoas se cadastrarem, e adicionarem tarefas que precisam realizar ao longo dos dias, desde séries para assistir ou responsabilidades. Eventualmente irei lançar um site para que o TaskPad seja utilizado, fique atento para usar também!",
+    "isFinished": true
+  },
+  {
+    "id": 3,
+    "image": "assets/images/jobsDone/devfinance-transaction.png",
+    "title": "dev.finance$",
+    "description": "o dev.finance$, funciona como um aplicativo de transações bancárias permitindo, tanto pagar contas, como receber valor de algum serviço ou empréstimo. Com somente HTML, CSS e JavaScript, ele continua com uma interface surpreendente.",
+    "isFinished": false
+  }
+]
