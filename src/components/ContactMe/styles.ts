@@ -34,7 +34,7 @@ export const Form = styled.form`
     padding-bottom: 8px;
   }
 
-  input[type=text] {
+  input[type=text], input[type=email] {
     margin-bottom: 25px;
     padding-bottom: 30px;
     border: 1px solid #E7E7E7;
@@ -51,10 +51,13 @@ export const FormFooter = styled.footer`
   display: flex;
   justify-content: flex-end;
   
-  a {
+  input[type=submit] {
     color: #000;
     font-weight: 400;
     padding-right: 3px;
+    border: none;
+    background: transparent;
+    text-decoration: underline;
   }
 
 `

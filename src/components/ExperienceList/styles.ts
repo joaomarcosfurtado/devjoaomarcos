@@ -26,6 +26,14 @@ export const Title = styled.div`
   h3 {
     font-size: 1.4rem;
     width: 300px;
+    padding-bottom: 8px;
+  }
+
+  a {
+    margin-top: 5px;
+    color: #000;
+    font-weight: 500;
+    opacity: 0.3;
   }
   
   @media (max-width: 1080px) {

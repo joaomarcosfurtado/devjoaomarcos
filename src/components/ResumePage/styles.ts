@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  padding: 3rem 1rem 1.5rem;
+  padding: 3rem .4rem 1.5rem;
   margin: 0 auto; 
 
   max-width: 1220px; 
@@ -49,7 +49,7 @@ export const DivButton = styled.div`
 
     margin-top: 15px;
   
-  button {
+  a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,7 +62,7 @@ export const DivButton = styled.div`
     transition: filter 0.2s;
   }
 
-  button:hover {
+  a:hover {
     filter: brightness(0.8);
   }
 `

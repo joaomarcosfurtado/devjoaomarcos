@@ -1,6 +1,6 @@
 import { Header, LinkHome } from "./styles";
 
-export function HeaderForCase () {
+export function HeaderForCase (props) {
   return (
     <Header>
         <LinkHome>
@@ -9,19 +9,9 @@ export function HeaderForCase () {
           </a>
           <p>Voltar para home</p>
         </LinkHome>
-        <img src="/assets/images/logo-painted.png" alt=""/>
-        <h1>Leia um pouco sobre mim</h1>
-        <p>
-          Sou programador há quase dois anos e tive oportunidade 
-          de realizar feitos bem interessantes até hoje. 
-          
-          atuo com linguagem desktop mas venho estudado 
-          bastante o ecossistema do ReactJS.
-          
-          Dê uma olhada no meu <strong> <a href="https://github.com/joaomarcosfurtado">github</a> </strong> 
-          <br/>
-          e veja mais sobre minha tragetória logo abaixo.
-        </p>
+        <img src={props.headerprops[0].image} alt=""/>
+        <h1>{props.headerprops[0].title}</h1>
+        <p>{props.headerprops[0].description} <strong> <a href={props.headerprops[0].link}>{props.headerprops[0].linkname}</a> </strong> </p>
       </Header>
   );
 }

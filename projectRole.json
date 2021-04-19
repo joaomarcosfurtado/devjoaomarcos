@@ -2,21 +2,31 @@
   {
     "id": 1,
     "title": "Equipe",
-    "description": "Desenvolvedor de Sistemas"
+    "description": "Como este é um projeto paralelo atuei sozinho, mas mesmo assim acredito que obtive um ótimo resultado."
   },
   {
     "id": 2,
     "title": "Minha Função",
-    "description": "Posso me posicionar como idealizador do projeto"
+    "description": "Posso me posicionar como idealizador do projeto."
   },
   {
     "id": 3,
     "title": "Metas",
-    "description": "O principal intuito era conseguir unir as informações necessárias que um provável cliente poderia ver, utilizando NextJS para não ficar invisível para os motores de busca. "
+    "description": "O principal intuito era conseguir reunir as informações necessárias do contratante que um provável cliente poderia querer ver, utilizando NextJS para não ficar invisível para os motores de busca."
   },
   {
     "id": 4,
-    "title": "Energisa S/A",
-    "description": "Desenvolvedor de Sistemas"
+    "title": "Equipe",
+    "description": "Como este é um projeto por enquanto estou atuando sozinho, mas mesmo assim acredito que estou obtendo um ótimo resultado."
+  },
+  {
+    "id": 5,
+    "title": "Minha Função",
+    "description": "Posso me posicionar como idealizador do projeto, espero que não demore muito e eu já consiga lançar esta aplicação."
+  },
+  {
+    "id": 6,
+    "title": "Metas",
+    "description": "A ideia principal do projeto era que o usuário conseguisse facilmente controlar os afazares do dia a dia."
   }
 ]

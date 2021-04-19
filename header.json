@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/images/logo-painted.png",
+    "title": "Leia um pouco sobre mim",
+    "description": "Sou programador há quase dois anos e tive oportunidade de realizar feitos bem interessantes. atuo com linguagem desktop mas venho estudado bastante o ecossistema do ReactJS. Veja mais sobre minha trajetória logo abaixo. E dê também uma olhada no meu ",
+    "link": "https://github.com/joaomarcosfurtado",
+    "linkname": "github"
+  },
+  {
+    "id": 2,
+    "image": "/assets/images/LogoFP.jpeg",
+    "title": "O que é FP Controladoria",
+    "description": " É um portfolio feio para uma empresa de gestão de contabilidade. O principal intuito era conseguir unir as informações da empresa, incluir suas novas atualizações e mostrar um pouco como ela atuava em seu ramo. Para saber mais acesse",
+    "link": "https://www.fpcontroladoria.com.br/",
+    "linkname": "fpcontroladoria"
+  },
+  {
+    "id": 3,
+    "image": "/assets/images/logoTaskPad.svg",
+    "title": "Que tal organizar o seu dia?",
+    "description": "O TaskPad tem como objetivo permitir pessoas se cadastrarem, e adicionarem tarefas que precisam realizar ao longo dos dias, desde séries para assistir ou responsabilidades. Eventualmente irei liberar aplicação, fique atento para usar também!"
+  }
+]

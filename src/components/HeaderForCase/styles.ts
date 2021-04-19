@@ -4,8 +4,8 @@ export const Header = styled.header`
 
   img {
     margin-top: 40px;
-    height: 64px;
-    width: 64px;
+    height: 90px;
+    width: 90px;
   }
 
   h1 {

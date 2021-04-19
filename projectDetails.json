@@ -3,18 +3,36 @@
     "id": 1,
     "image": "assets/images/jobsDone/fpcontroladoria-accounting.png",
     "title": "Pesquisa",
-    "description": "FP Controladoria  foi um projeto em que trabalhei como designer. O principal objetivo da aplicação é mostrar vários pontos que um PJ pode atuar. Isso é algo que as vezes o contratante não consegue perceber e tentamos demonstrar isso aqui."
+    "description": "FP Controladoria  foi um projeto em que trabalhei como desenvolvedor. O principal objetivo da aplicação é mostrar vários pontos que um PJ pode atuar que as vezes um portfolio normal não mostraria. Isso é algo que as vezes o contratante não consegue perceber e tentamos demonstrar isso aqui."
   },
   {
     "id": 2,
     "image": "assets/images/jobsDone/fpcontroladoria-home.png",
     "title": "Wireframe",
-    "description": "A aplicação permite que o dono da aplicação adicione informações sobre a área que atua, noticias diárias para que os leitores continuem sempre conectados e interessados no website, além de ter uma área onde mostra as a jornada trabalhista do PJ."
+    "description": "A aplicação permite que o dono da aplicação adicione informações sobre a área que atua, noticias diárias para que os leitores continuem sempre conectados e interessados no website, além de ter uma área onde mostra a jornada trabalhista do PJ."
   },
   {
     "id": 3,
     "image": "assets/images/jobsDone/fpcontroladoria-jobs.png",
     "title": "Design",
     "description": "Este é um projeto paralelo que preparei nas horas vagas. A maior vantagem que eu vejo em relação aos portfolios comuns é que além de ter o básico de um portfolio ainda permite que o autor se matenha sempre conectado com os leitores."
+  },
+  {
+    "id": 4,
+    "image": "assets/images/jobsDone/taskpad-login.png",
+    "title": "Pesquisa",
+    "description": "O intuito do TaskPad era obter um aplicação fácil de utilizar mas que não perdesse em qualidade em design. A aplicação é totalmente responsiva e possui cores chamativas o que a torna bem apresentável"
+  },
+  {
+    "id": 5,
+    "image": "assets/images/jobsDone/taskpad-ladingpage.png",
+    "title": "Wireframe",
+    "description": "A aplicação permite que o usuário insira tarefas de acordo com o que achar melhor, pode ser para tarefas básicas até as mais importantes. Contendo uma interface amigável torna-a bem gostosa de utilizar."
+  },
+  {
+    "id": 6,
+    "image": "assets/images/jobsDone/taskpad-modal.png",
+    "title": "Design",
+    "description": "O TaskPad aprensenta uma pegada diferente de outras aplicações ToDo, com cores e outras funcionalidades menos pesadas, com intuito de fazer qualquer um que utilizar a aplicação se sinta confortável."
   }
 ]

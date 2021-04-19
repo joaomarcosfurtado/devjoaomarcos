@@ -26,6 +26,7 @@ export function ExperienceList () {
     <>
       <Title>
         <h3>Experiência</h3>
+        <a href="./resume">Clique aqui e veja de forma mais detalhada.</a>
       </Title>
       <Container>  
         <Content>

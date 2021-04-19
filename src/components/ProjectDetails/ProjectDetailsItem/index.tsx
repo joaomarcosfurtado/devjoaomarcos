@@ -20,9 +20,7 @@ export function ProjectDetailItem (props) {
           {props.job.description}
         </p>
       </Description>
-
     </Container>
-   
     </>
   );
 }

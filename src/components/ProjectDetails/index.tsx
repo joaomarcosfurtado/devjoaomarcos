@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ProjectDetailItem } from "./ProjectDetailsItem";
+import { ProjectDetailImages } from "./projectDetailImages";
 import { Container, Content } from "./styles";
 import ProjectDetailsProps from '../../../projectDetails.json' 
 
@@ -12,7 +13,7 @@ interface Jobs {
   link?: string; 
 }
 
-export function ProjectDetail () {
+export function ProjectDetail (props) {
   
   const [ jobs, setJobs ] = useState<Jobs[]>(() => {
 
@@ -29,10 +30,16 @@ export function ProjectDetail () {
   return (
     <Container>
       <Content>
-        {jobs.map(job => (
-          <ProjectDetailItem key={job.id} job={job}/>
+        {props.projectdetail.map(props => (
+          <ProjectDetailItem key={props.id} job={props}/>
         ))}
-      </Content>  
+
+        {props.projectdetail.map(props => (
+            <ProjectDetailImages key={props.id} image={props.image}/>
+          ))}
+      </Content> 
+
+      
     </Container>
   );
 }

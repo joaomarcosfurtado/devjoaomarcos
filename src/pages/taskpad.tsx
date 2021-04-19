@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { ContactMe } from "../components/ContactMe";
 import { HeaderForCase } from "../components/HeaderForCase";
 import { ProjectDetail } from "../components/ProjectDetails";
@@ -6,6 +5,7 @@ import { ProjectRoleList } from "../components/ProjectRole";
 import { usePageInfo } from "../hooks/usePageInfo";
 import { Container } from "../styles/pages/pages";
 import HeaderPropsJson from '../../header.json'
+import { useState } from "react";
 
 interface HeaderProps{
   id: number;
@@ -17,13 +17,14 @@ interface HeaderProps{
 }
 
 export default function FpControladoria () {
-  const { infosFpControladoria, infosFpControladoriaDetail } = usePageInfo();
+  const { infosTaskPad, infosTaskpadDetail } = usePageInfo()
+  
   const [ headerProps, setHeaderProps ] = useState<HeaderProps[]>(() => {
     
     const GetProps = []
 
     HeaderPropsJson.map(props =>{
-      if (props.id === 2) {
+      if (props.id === 3) {
         GetProps.push(props)
       }
     })
@@ -34,12 +35,12 @@ export default function FpControladoria () {
     
     return []
   })
-
+  
   return (
     <Container>
       <HeaderForCase headerprops={headerProps}/>
-      <ProjectRoleList projectrole={infosFpControladoria} />
-      <ProjectDetail projectdetail={infosFpControladoriaDetail}/>
+      <ProjectRoleList projectrole={infosTaskPad}/>
+      <ProjectDetail projectdetail={infosTaskpadDetail}/>
       <ContactMe />
     </Container>
   );

@@ -15,12 +15,15 @@ export const Content = styled.div`
   flex-wrap: wrap;
 
   @media screen and (max-width: 1080px) {
-    
-    
     section {
       margin-bottom: 80px;
     }
-    
+  }
+
+  @media screen and (max-width: 615px) {
+    section {
+      margin-bottom: 0;
+    }
   }
 
 `
