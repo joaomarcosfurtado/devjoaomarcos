@@ -7,13 +7,12 @@ interface Experience {
   date: string;
 }
 
-export function ExperienceListItem (props) {
+export function ProjectRoleItem (props) {
 
   return (
     <Container>
-      <p>{props.experience.company} </p>
-      <p>{props.experience.role}</p>
-      <p>{props.experience.date}</p>
+      <h3>{props.experience.title} </h3>
+      <p>{props.experience.description}</p>
     </Container>
   );
 }

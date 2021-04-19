@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { ExperienceListItem } from "./ExperienceListItem";
+import { useState } from "react";
+import { ExperienceListItem } from "./ExperienceListItem/index";
 import { Container, Content, Title } from "./styles";
 import experienceItems from '../../../experiece.json'
 
