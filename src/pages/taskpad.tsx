@@ -6,6 +6,7 @@ import { usePageInfo } from "../hooks/usePageInfo";
 import { Container } from "../styles/pages/pages";
 import HeaderPropsJson from '../../header.json'
 import { useState } from "react";
+import Head from "next/head";
 
 interface HeaderProps{
   id: number;
@@ -37,11 +38,16 @@ export default function FpControladoria () {
   })
   
   return (
-    <Container>
-      <HeaderForCase headerprops={headerProps}/>
-      <ProjectRoleList projectrole={infosTaskPad}/>
-      <ProjectDetail projectdetail={infosTaskpadDetail}/>
-      <ContactMe />
-    </Container>
+    <>
+      <Head>
+          <title>Dev JM | TaskPad</title>
+      </Head>
+      <Container>
+        <HeaderForCase headerprops={headerProps}/>
+        <ProjectRoleList projectrole={infosTaskPad}/>
+        <ProjectDetail projectdetail={infosTaskpadDetail}/>
+        <ContactMe />
+      </Container>
+    </>
   );
 }

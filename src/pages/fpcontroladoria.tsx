@@ -6,6 +6,7 @@ import { ProjectRoleList } from "../components/ProjectRole";
 import { usePageInfo } from "../hooks/usePageInfo";
 import { Container } from "../styles/pages/pages";
 import HeaderPropsJson from '../../header.json'
+import Head from "next/head";
 
 interface HeaderProps{
   id: number;
@@ -36,11 +37,16 @@ export default function FpControladoria () {
   })
 
   return (
-    <Container>
-      <HeaderForCase headerprops={headerProps}/>
-      <ProjectRoleList projectrole={infosFpControladoria} />
-      <ProjectDetail projectdetail={infosFpControladoriaDetail}/>
-      <ContactMe />
-    </Container>
+    <>
+      <Head>
+          <title>Dev JM | FP Controlodaria</title>
+      </Head>
+      <Container>
+        <HeaderForCase headerprops={headerProps}/>
+        <ProjectRoleList projectrole={infosFpControladoria} />
+        <ProjectDetail projectdetail={infosFpControladoriaDetail}/>
+        <ContactMe />
+      </Container>
+    </>
   );
 }

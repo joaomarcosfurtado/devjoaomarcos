@@ -1,7 +1,13 @@
+import Head from 'next/head';
 import { ResumePage } from '../components/ResumePage'
 
 export default function Resume () {
   return (
-    <ResumePage />
+    <>
+      <Head>
+        <title>Dev JM | Currículo</title>
+      </Head>
+      <ResumePage />
+    </>  
   );
 }
