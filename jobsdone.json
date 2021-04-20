@@ -3,7 +3,7 @@
     "id": 1,
     "image": "assets/images/jobsDone/fpcontroladoria.png",
     "title": "FP Controladoria",
-    "description": "Portfolio feio para uma empresa de gestão de contabilidade onde tiver oportunidade de criar esse site utilizando NextJS. O principal intuito era conseguir unir as informações da empresa, incluir suas novas atualizações e mostrar um pouco como ela atuava em seu ramo. Acesse www.fpcontroladoria.com.br para saber mais",
+    "description": "Portfolio feito para uma empresa de gestão de contabilidade onde tiver oportunidade de criar esse site utilizando NextJS. O principal intuito era conseguir unir as informações da empresa, incluir suas novas atualizações e mostrar um pouco como ela atuava em seu ramo. Acesse www.fpcontroladoria.com.br para saber mais",
     "isFinished": true,
     "link": "./fpcontroladoria"
   },
